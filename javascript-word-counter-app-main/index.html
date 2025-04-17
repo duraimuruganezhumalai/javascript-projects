@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word counter</title>
+    <link rel="stylesheet" href="./wordcounter.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <form name="wordcounterForm">
+                <div class="word-counter-form">
+                    <div class="input-field">
+                        <input type="text" id="wordcounter" class="word-counter" name="wordcounter"
+                            placeholder="Enter your word here...">
+                    </div>
+                    <div class="error-span"><span id="error" class="error-msg"></span></div>
+                    <div class="button-section">
+                        <button class="submit-Btn">Count</button>
+                    </div>
+                </div>
+            </form>
+            <div class="char-section"><strong>Char count is : </strong><span class="char-count"></span></div>
+            <div class="word-section"><strong>Word count is : </strong><span class="word-count"></span></div>
+            <div class="userinputval-section"><strong>Your entered text is : </strong><span
+                    class="user-entered-text"></span></div>
+        </section>
+    </main>
+
+
+    <script src="./wordcounter.js"></script>
+</body>
+
+</html>
