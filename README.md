@@ -12,3 +12,4 @@ Here are all my mini JavaScript projects with live links:
 8. [📝 Todo List App](https://duraimuruganezhumalai.github.io/javascript-projects/javascript-todolist-app--main/)
 9. [⛅ Weather App](https://duraimuruganezhumalai.github.io/javascript-projects/javascript-weather-app-main/)
 10. [✍️ Word Counter App](https://duraimuruganezhumalai.github.io/javascript-projects/javascript-word-counter-app-main/)
+11. [🎨 Hex Color Background Changer](https://duraimuruganezhumalai.github.io/javascript-projects/hex-color-background-changer/)
