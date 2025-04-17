@@ -1,6 +1,6 @@
 # JavaScript Projects
 
-Here are all my mini JavaScript projects with live links:
+Here are all my JavaScript projects with live links:
 
 1. [🕒 Digital Clock App](https://duraimuruganezhumalai.github.io/javascript-projects/digital-clock-app-main/)
 2. [🎯 Guess the Number Game](https://duraimuruganezhumalai.github.io/javascript-projects/guess-the-number-game-app-main/)
