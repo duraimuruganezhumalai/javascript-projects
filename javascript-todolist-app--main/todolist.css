@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.container {
+    width: 400px;
+}
+
+.task-submit-button {
+    background-color: #5256b9;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 220px;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.tasklist-container {
+    padding-top: 30px;
+}
+
+.taskInput {
+    border: 2px solid #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 93%;
+    margin-bottom: 10px;
+}
+
+.todotasklistForm {
+    width: 100%;
+    text-align: center;
+}
+
+.taskListItems {
+    padding: 0;
+}
+
+.taskListItems li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #fafafa;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.task-input {
+    flex: 1;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button.task-edit {
+    background-color: #427191;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    text-align: center;
+}
+
+button.task-delete {
+    background-color: #d43131;
+    cursor: pointer;
+}
+
+.task-edit,
+.task-delete {
+    background-color: #427191;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.task-checkbox {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}

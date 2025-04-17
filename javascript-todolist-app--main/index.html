@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="./todolist.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="todolist-form">
+                    <form action="" name="todotasklistForm" class="todotasklistForm">
+                        <div>
+                            <input type="text" placeholder="Add a new task" class="taskInput" id="taskInput"
+                                name="taskinputValue">
+                        </div>
+                        <div>
+
+                            <button type="submit" class="task-submit-button">Add a Task</button>
+                        </div>
+
+                        <div>
+                            <span class="error" id="error"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="tasklist-container">
+                    <ul class="taskListItems" id="taskListItems"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./todolist.js"></script>
+</body>
+
+</html>
