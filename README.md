@@ -1,4 +1,4 @@
-# 🌐 JavaScript Projects
+# JavaScript Projects
 
 Here are all my mini JavaScript projects with live links:
 
