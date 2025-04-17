@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a number game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <form action="" name="guessnumberForm">
+                    <div class="form-container">
+                        <h2>Guess the Number!</h2>
+                        <p class="user-hint">Please enter the number between 1 to 50</p>
+                        <input type="number" class="num" id="inputnumber" name="guessnumInput">
+                        <p class="message"></p>
+                        <div class="submit-button-container"> <button type="submit" class="submitBtn">Submit</button>
+                        </div>
+
+                    </div>
+                </form>
+                <div class="user-attempt-count">
+                    <p class="attempt">Attempt left : <span id="attemptLeft">10</span></p>
+                    <p class="user-guess-count">Your entered num is : <span class="entered-num"></span></p>
+                </div>
+                <div class="reset-button-container"> <button type="button" id="resetBtn" class="resetBtn">Reset</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./guessnum.js"></script>
+</body>
+
+</html>
