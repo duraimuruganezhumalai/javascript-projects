@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./bmistyle.css">
+</head>
+
+<body>
+    <main>
+        <section class="bmicalc-section">
+            <div class="container">
+                <h1>Check Your BMI Here</h1>
+                <div class="bmiform">
+                    <form action="" name="bmicalculator">
+                        <div>
+                            <!-- <label for="bmiWeight">Weight in (KG)</label><br> -->
+                            <input type="number" id="bmiWeight" class="bmiweight" placeholder="Enter Your Weight (kg)"
+                                name="bmiweightfield" min="1">
+                        </div>
+                        <div>
+                            <!-- <label for="bmiHeight">Height in (CM)- </label><br> -->
+                            <input type="number" id="bmiHeight" class="bmiheight" placeholder="Enter Your Height (cm)"
+                                name="bmiheightfield" min="1">
+                        </div>
+                        <div>
+                            <button type="submit" class="bmi-submit">Calculate BMI</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- <div class="bmi-result">Your weight : <span class="weight-userinput"></span>, Your height : <span
+                        class="height-userinput"></span></div> -->
+                <div class="bmi-result">Your BMI is : <span class=bmi-value></span></div>
+                <div class="bmierror-section"><span class="bmi-error"></span></div>
+                <div><span class="bmi-message"></span></div>
+            </div>
+        </section>
+
+    </main>
+    <script src="./bmi.js"></script>
+</body>
+
+</html>

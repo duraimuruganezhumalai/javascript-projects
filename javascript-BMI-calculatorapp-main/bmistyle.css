@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bmicalc-section {
+    width: 450px;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 350px;
+}
+
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.bmi-submit {
+    background: #6e8efb;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.bmi-submit:hover {
+    background: #4a6ed8;
+}
+
+
+.bmi-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.bmi-value {
+    color: #6e8efb;
+    font-weight: bold;
+}
+
+.bmierror-section {
+    margin-top: 10px;
+}
+
+.bmi-error {
+    color: red;
+    font-size: 16px;
+}
+
+.bmi-message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.bmi-message .underweight {
+    color: #f39c12;
+}
+
+.bmi-message .normal {
+    color: #27ae60;
+}
+
+.bmi-message .overweight {
+    color: #ee750b;
+}
+
+.bmi-message .obese {
+    color: #e74c3c;
+}
+
+.underweight {
+    color: orange;
+}
+
+.normal {
+    color: green;
+}
+
+.overweight {
+    color: rgb(223, 122, 8);
+}
+
+.obese {
+    color: red;
+}
