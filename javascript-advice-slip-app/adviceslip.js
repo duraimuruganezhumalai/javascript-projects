@@ -9,7 +9,8 @@ const getAdviceSlipData = async () => {
         loader.style.display = "block"
         appendAdviceSlip.textContent = " ";
 
-        const res = await fetch('https://api.adviceslip.com/advice')
+        // const res = await fetch('https://api.adviceslip.com/advice')
+        const res = await fetch(`https://api.adviceslip.com/advice?timestamp=${new Date().getTime()}`);
         const data = await res.json();
 
         loader.style.display = "none"
