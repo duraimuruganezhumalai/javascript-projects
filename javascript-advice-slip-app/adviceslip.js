@@ -10,6 +10,7 @@ const getAdviceSlipData = async () => {
         appendAdviceSlip.textContent = " ";
 
         const res = await fetch('https://api.adviceslip.com/advice')
+        console.log(res);
         // const res = await fetch('https://api.adviceslip.com/advice/random');
         const data = await res.json();
 
