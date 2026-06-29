@@ -8,7 +8,7 @@ let editElement = null;
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    let getTaskItem = JSON.parse(localStorage.getItem('task'))
+    let getTaskItem = JSON.parse(localStorage.getItem('task')) || [];
     console.log("getTaskItem", getTaskItem);
 
     getTaskItem.forEach(({ task, completed }) => {
